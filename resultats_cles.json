@@ -1,0 +1,640 @@
+{
+  "volatilite_resines": {
+    "ecart_type_avant": 1.18,
+    "ecart_type_apres": 5.74,
+    "mediane_abs_avant": 0.74,
+    "mediane_abs_apres": 3.6,
+    "facteur": 4.8,
+    "mois_agites": 79
+  },
+  "correlations_totales": {
+    "Petrochimiques": [
+      0.46,
+      0.5,
+      0.23,
+      -0.0,
+      -0.14,
+      -0.04,
+      -0.02
+    ],
+    "Resines plastiques": [
+      0.16,
+      0.43,
+      0.24,
+      0.04,
+      -0.11,
+      -0.24,
+      -0.11
+    ],
+    "Caoutchouc synthetique": [
+      -0.08,
+      0.1,
+      0.23,
+      0.16,
+      0.15,
+      0.03,
+      -0.0
+    ],
+    "Fibres synthetiques": [
+      -0.09,
+      -0.06,
+      0.13,
+      0.06,
+      0.03,
+      -0.05,
+      0.02
+    ],
+    "Gaz naturel": [
+      0.05,
+      0.0,
+      0.2,
+      0.1,
+      -0.07,
+      -0.02,
+      0.05
+    ]
+  },
+  "meilleur_retard": {
+    "Petrochimiques": 1,
+    "Resines plastiques": 1,
+    "Caoutchouc synthetique": 2,
+    "Fibres synthetiques": 2,
+    "Gaz naturel": 2
+  },
+  "robustesse": [
+    {
+      "Période": "Avant 2020",
+      "Mois": 119,
+      "Seuil": 0.18,
+      "Intrant": "Produits pétrochimiques",
+      "0 mois": 0.38,
+      "1 mois": 0.5,
+      "2 mois": 0.12,
+      "3 mois": -0.02,
+      "4 mois": -0.08
+    },
+    {
+      "Période": "Avant 2020",
+      "Mois": 119,
+      "Seuil": 0.18,
+      "Intrant": "Résines plastiques",
+      "0 mois": 0.13,
+      "1 mois": 0.31,
+      "2 mois": 0.23,
+      "3 mois": 0.2,
+      "4 mois": -0.03
+    },
+    {
+      "Période": "Avant 2020",
+      "Mois": 119,
+      "Seuil": 0.18,
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "0 mois": -0.17,
+      "1 mois": 0.1,
+      "2 mois": 0.27,
+      "3 mois": 0.19,
+      "4 mois": 0.16
+    },
+    {
+      "Période": "Avant 2020",
+      "Mois": 119,
+      "Seuil": 0.18,
+      "Intrant": "Fibres synthétiques",
+      "0 mois": -0.28,
+      "1 mois": -0.04,
+      "2 mois": 0.19,
+      "3 mois": -0.04,
+      "4 mois": 0.08
+    },
+    {
+      "Période": "Depuis 2020",
+      "Mois": 80,
+      "Seuil": 0.22,
+      "Intrant": "Produits pétrochimiques",
+      "0 mois": 0.53,
+      "1 mois": 0.53,
+      "2 mois": 0.31,
+      "3 mois": 0.01,
+      "4 mois": -0.2
+    },
+    {
+      "Période": "Depuis 2020",
+      "Mois": 80,
+      "Seuil": 0.22,
+      "Intrant": "Résines plastiques",
+      "0 mois": 0.17,
+      "1 mois": 0.48,
+      "2 mois": 0.26,
+      "3 mois": 0.02,
+      "4 mois": -0.14
+    },
+    {
+      "Période": "Depuis 2020",
+      "Mois": 80,
+      "Seuil": 0.22,
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "0 mois": -0.03,
+      "1 mois": 0.1,
+      "2 mois": 0.21,
+      "3 mois": 0.15,
+      "4 mois": 0.15
+    },
+    {
+      "Période": "Depuis 2020",
+      "Mois": 80,
+      "Seuil": 0.22,
+      "Intrant": "Fibres synthétiques",
+      "0 mois": 0.01,
+      "1 mois": -0.08,
+      "2 mois": 0.1,
+      "3 mois": 0.12,
+      "4 mois": -0.01
+    },
+    {
+      "Période": "Depuis 2021",
+      "Mois": 68,
+      "Seuil": 0.24,
+      "Intrant": "Produits pétrochimiques",
+      "0 mois": 0.5,
+      "1 mois": 0.59,
+      "2 mois": 0.24,
+      "3 mois": -0.14,
+      "4 mois": -0.1
+    },
+    {
+      "Période": "Depuis 2021",
+      "Mois": 68,
+      "Seuil": 0.24,
+      "Intrant": "Résines plastiques",
+      "0 mois": 0.32,
+      "1 mois": 0.66,
+      "2 mois": 0.34,
+      "3 mois": -0.04,
+      "4 mois": -0.27
+    },
+    {
+      "Période": "Depuis 2021",
+      "Mois": 68,
+      "Seuil": 0.24,
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "0 mois": 0.08,
+      "1 mois": 0.21,
+      "2 mois": 0.25,
+      "3 mois": 0.12,
+      "4 mois": -0.0
+    },
+    {
+      "Période": "Depuis 2021",
+      "Mois": 68,
+      "Seuil": 0.24,
+      "Intrant": "Fibres synthétiques",
+      "0 mois": 0.08,
+      "1 mois": -0.06,
+      "2 mois": 0.02,
+      "3 mois": 0.15,
+      "4 mois": 0.05
+    }
+  ],
+  "correlations_2021_2025": {
+    "Petrochimiques": [
+      0.49,
+      0.52,
+      0.18,
+      -0.13
+    ],
+    "Resines plastiques": [
+      0.23,
+      0.56,
+      0.1,
+      0.07
+    ]
+  },
+  "glissante_fin": {
+    "Petrochimiques": 0.69,
+    "Resines plastiques": 0.79
+  },
+  "glissante_debut_resines": -0.09,
+  "granger": [
+    {
+      "Période": "Toute la période",
+      "Intrant": "Produits pétrochimiques",
+      "1 mois": 0.0,
+      "2 mois": 0.0,
+      "3 mois": 0.0
+    },
+    {
+      "Période": "Toute la période",
+      "Intrant": "Résines plastiques",
+      "1 mois": 0.0,
+      "2 mois": 0.0,
+      "3 mois": 0.0
+    },
+    {
+      "Période": "Toute la période",
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "1 mois": 0.0624,
+      "2 mois": 0.0057,
+      "3 mois": 0.024
+    },
+    {
+      "Période": "Toute la période",
+      "Intrant": "Fibres synthétiques",
+      "1 mois": 0.2552,
+      "2 mois": 0.1233,
+      "3 mois": 0.2017
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Produits pétrochimiques",
+      "1 mois": 0.0,
+      "2 mois": 0.0,
+      "3 mois": 0.0
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Résines plastiques",
+      "1 mois": 0.0,
+      "2 mois": 0.0,
+      "3 mois": 0.0
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "1 mois": 0.0926,
+      "2 mois": 0.0676,
+      "3 mois": 0.0833
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Fibres synthétiques",
+      "1 mois": 0.6909,
+      "2 mois": 0.9062,
+      "3 mois": 0.6451
+    }
+  ],
+  "elasticites": [
+    {
+      "Période": "Toute la période",
+      "Intrant": "Produits pétrochimiques",
+      "même mois": 0.225,
+      "1 mois": 0.199,
+      "2 mois": 0.099,
+      "3 mois": 0.057,
+      "Effet cumulé": 0.58,
+      "R²": 0.435,
+      "+10 % de pétrole → intrant (%)": 5.8
+    },
+    {
+      "Période": "Toute la période",
+      "Intrant": "Résines plastiques",
+      "même mois": 0.042,
+      "1 mois": 0.141,
+      "2 mois": 0.056,
+      "3 mois": 0.034,
+      "Effet cumulé": 0.273,
+      "R²": 0.224,
+      "+10 % de pétrole → intrant (%)": 2.7
+    },
+    {
+      "Période": "Toute la période",
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "même mois": -0.009,
+      "1 mois": 0.017,
+      "2 mois": 0.032,
+      "3 mois": 0.023,
+      "Effet cumulé": 0.063,
+      "R²": 0.073,
+      "+10 % de pétrole → intrant (%)": 0.6
+    },
+    {
+      "Période": "Toute la période",
+      "Intrant": "Fibres synthétiques",
+      "même mois": -0.022,
+      "1 mois": -0.047,
+      "2 mois": 0.079,
+      "3 mois": 0.001,
+      "Effet cumulé": 0.01,
+      "R²": 0.028,
+      "+10 % de pétrole → intrant (%)": 0.1
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Produits pétrochimiques",
+      "même mois": 0.215,
+      "1 mois": 0.251,
+      "2 mois": 0.101,
+      "3 mois": -0.03,
+      "Effet cumulé": 0.538,
+      "R²": 0.472,
+      "+10 % de pétrole → intrant (%)": 5.4
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Résines plastiques",
+      "même mois": 0.146,
+      "1 mois": 0.396,
+      "2 mois": 0.151,
+      "3 mois": 0.012,
+      "Effet cumulé": 0.705,
+      "R²": 0.482,
+      "+10 % de pétrole → intrant (%)": 7.0
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "même mois": 0.026,
+      "1 mois": 0.043,
+      "2 mois": 0.05,
+      "3 mois": 0.028,
+      "Effet cumulé": 0.147,
+      "R²": 0.116,
+      "+10 % de pétrole → intrant (%)": 1.5
+    },
+    {
+      "Période": "Depuis 2021",
+      "Intrant": "Fibres synthétiques",
+      "même mois": 0.14,
+      "1 mois": -0.084,
+      "2 mois": 0.021,
+      "3 mois": 0.144,
+      "Effet cumulé": 0.221,
+      "R²": 0.048,
+      "+10 % de pétrole → intrant (%)": 2.2
+    }
+  ],
+  "episodes": [
+    {
+      "Série": "Pétrole WTI (en $ CAD)",
+      "Épisode": "2022",
+      "Hausse max. (%)": 26.0,
+      "Sommet": "2022-06",
+      "Mois après le déclenchement": 4
+    },
+    {
+      "Série": "Produits pétrochimiques",
+      "Épisode": "2022",
+      "Hausse max. (%)": 15.0,
+      "Sommet": "2022-06",
+      "Mois après le déclenchement": 4
+    },
+    {
+      "Série": "Résines plastiques",
+      "Épisode": "2022",
+      "Hausse max. (%)": 7.0,
+      "Sommet": "2022-04",
+      "Mois après le déclenchement": 2
+    },
+    {
+      "Série": "Caoutchouc synthétique (latex)",
+      "Épisode": "2022",
+      "Hausse max. (%)": 11.0,
+      "Sommet": "2022-09",
+      "Mois après le déclenchement": 7
+    },
+    {
+      "Série": "Fibres synthétiques",
+      "Épisode": "2022",
+      "Hausse max. (%)": 12.0,
+      "Sommet": "2022-08",
+      "Mois après le déclenchement": 6
+    },
+    {
+      "Série": "Tapis (produit fini)",
+      "Épisode": "2022",
+      "Hausse max. (%)": 0.0,
+      "Sommet": "2022-02",
+      "Mois après le déclenchement": 0
+    },
+    {
+      "Série": "Pétrole WTI (en $ CAD)",
+      "Épisode": "2026",
+      "Hausse max. (%)": 59.0,
+      "Sommet": "2026-05",
+      "Mois après le déclenchement": 3
+    },
+    {
+      "Série": "Produits pétrochimiques",
+      "Épisode": "2026",
+      "Hausse max. (%)": 29.0,
+      "Sommet": "2026-05",
+      "Mois après le déclenchement": 3
+    },
+    {
+      "Série": "Résines plastiques",
+      "Épisode": "2026",
+      "Hausse max. (%)": 61.0,
+      "Sommet": "2026-05",
+      "Mois après le déclenchement": 3
+    },
+    {
+      "Série": "Caoutchouc synthétique (latex)",
+      "Épisode": "2026",
+      "Hausse max. (%)": 5.0,
+      "Sommet": "2026-07",
+      "Mois après le déclenchement": 5
+    },
+    {
+      "Série": "Fibres synthétiques",
+      "Épisode": "2026",
+      "Hausse max. (%)": 7.0,
+      "Sommet": "2026-07",
+      "Mois après le déclenchement": 5
+    },
+    {
+      "Série": "Tapis (produit fini)",
+      "Épisode": "2026",
+      "Hausse max. (%)": 8.0,
+      "Sommet": "2026-07",
+      "Mois après le déclenchement": 5
+    }
+  ],
+  "episode_2026": {
+    "variation_par_mois": {
+      "2026-02": {
+        "WTI en CAD": 0.0,
+        "Petrochimiques": 0.0,
+        "Resines plastiques": 0.0,
+        "Caoutchouc synthetique": 0.0,
+        "Fibres synthetiques": 0.0,
+        "Tapis": 0.0
+      },
+      "2026-03": {
+        "WTI en CAD": 42.0,
+        "Petrochimiques": 8.0,
+        "Resines plastiques": 9.0,
+        "Caoutchouc synthetique": 0.0,
+        "Fibres synthetiques": 1.0,
+        "Tapis": -2.0
+      },
+      "2026-04": {
+        "WTI en CAD": 57.0,
+        "Petrochimiques": 19.0,
+        "Resines plastiques": 29.0,
+        "Caoutchouc synthetique": 2.0,
+        "Fibres synthetiques": 2.0,
+        "Tapis": -2.0
+      },
+      "2026-05": {
+        "WTI en CAD": 59.0,
+        "Petrochimiques": 29.0,
+        "Resines plastiques": 61.0,
+        "Caoutchouc synthetique": 1.0,
+        "Fibres synthetiques": 5.0,
+        "Tapis": -2.0
+      },
+      "2026-06": {
+        "WTI en CAD": 35.0,
+        "Petrochimiques": 26.0,
+        "Resines plastiques": 54.0,
+        "Caoutchouc synthetique": 4.0,
+        "Fibres synthetiques": 5.0,
+        "Tapis": -2.0
+      },
+      "2026-07": {
+        "WTI en CAD": 29.0,
+        "Petrochimiques": 17.0,
+        "Resines plastiques": 28.0,
+        "Caoutchouc synthetique": 5.0,
+        "Fibres synthetiques": 7.0,
+        "Tapis": 8.0
+      },
+      "2026-08": {
+        "WTI en CAD": 32.0,
+        "Petrochimiques": 18.0,
+        "Resines plastiques": 16.0,
+        "Caoutchouc synthetique": 3.0,
+        "Fibres synthetiques": 4.0,
+        "Tapis": 8.0
+      }
+    },
+    "wti_usd": {
+      "2026-02": 64.5,
+      "2026-03": 91.4,
+      "2026-04": 100.3,
+      "2026-05": 102.1,
+      "2026-06": 84.8,
+      "2026-07": 80.5,
+      "2026-08": 83.9
+    },
+    "risque_geopolitique_mars_2026": 330.0,
+    "risque_geopolitique_mars_2022": 319.0
+  },
+  "hors_echantillon": [
+    {
+      "Modèle": "Petrochimiques",
+      "Corrélation prévu/observé (janv.–août)": 0.92,
+      "Hausse cumulée observée, mars–juin (%)": 26.42,
+      "Hausse cumulée prévue, mars–juin (%)": 25.68
+    },
+    {
+      "Modèle": "Resines (estimé 2010-2025)",
+      "Corrélation prévu/observé (janv.–août)": 0.86,
+      "Hausse cumulée observée, mars–juin (%)": 53.85,
+      "Hausse cumulée prévue, mars–juin (%)": 7.18
+    },
+    {
+      "Modèle": "Resines (estimé 2021-2025)",
+      "Corrélation prévu/observé (janv.–août)": 0.81,
+      "Hausse cumulée observée, mars–juin (%)": 53.85,
+      "Hausse cumulée prévue, mars–juin (%)": 18.15
+    }
+  ],
+  "alerte_10": [
+    {
+      "Intrant": "Produits pétrochimiques",
+      "Cas d'alerte": 17,
+      "Hausse ≥ 2 % après alerte": 0.824,
+      "Hausse ≥ 2 % en temps normal": 0.447,
+      "Variation moyenne après alerte (%)": 7.314,
+      "Variation moyenne en temps normal (%)": 0.258
+    },
+    {
+      "Intrant": "Résines plastiques",
+      "Cas d'alerte": 17,
+      "Hausse ≥ 2 % après alerte": 0.529,
+      "Hausse ≥ 2 % en temps normal": 0.208,
+      "Variation moyenne après alerte (%)": 5.145,
+      "Variation moyenne en temps normal (%)": 0.289
+    },
+    {
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "Cas d'alerte": 17,
+      "Hausse ≥ 2 % après alerte": 0.353,
+      "Hausse ≥ 2 % en temps normal": 0.249,
+      "Variation moyenne après alerte (%)": 0.847,
+      "Variation moyenne en temps normal (%)": 0.423
+    },
+    {
+      "Intrant": "Fibres synthétiques",
+      "Cas d'alerte": 17,
+      "Hausse ≥ 2 % après alerte": 0.471,
+      "Hausse ≥ 2 % en temps normal": 0.32,
+      "Variation moyenne après alerte (%)": -0.41,
+      "Variation moyenne en temps normal (%)": 0.409
+    }
+  ],
+  "alerte_5": [
+    {
+      "Intrant": "Produits pétrochimiques",
+      "Cas d'alerte": 51,
+      "Hausse ≥ 2 % après alerte": 0.608,
+      "Hausse ≥ 2 % en temps normal": 0.447,
+      "Variation moyenne après alerte (%)": 4.87,
+      "Variation moyenne en temps normal (%)": 0.258
+    },
+    {
+      "Intrant": "Résines plastiques",
+      "Cas d'alerte": 51,
+      "Hausse ≥ 2 % après alerte": 0.392,
+      "Hausse ≥ 2 % en temps normal": 0.208,
+      "Variation moyenne après alerte (%)": 3.462,
+      "Variation moyenne en temps normal (%)": 0.289
+    },
+    {
+      "Intrant": "Caoutchouc synthétique (latex)",
+      "Cas d'alerte": 51,
+      "Hausse ≥ 2 % après alerte": 0.333,
+      "Hausse ≥ 2 % en temps normal": 0.249,
+      "Variation moyenne après alerte (%)": 1.103,
+      "Variation moyenne en temps normal (%)": 0.423
+    },
+    {
+      "Intrant": "Fibres synthétiques",
+      "Cas d'alerte": 51,
+      "Hausse ≥ 2 % après alerte": 0.373,
+      "Hausse ≥ 2 % en temps normal": 0.32,
+      "Variation moyenne après alerte (%)": -0.101,
+      "Variation moyenne en temps normal (%)": 0.409
+    }
+  ],
+  "resume": [
+    {
+      "index": "Produits pétrochimiques",
+      "Décalage (mois)": 1,
+      "Corr. max, toute période": 0.5,
+      "Corr. à 1 mois avant 2020": 0.5,
+      "Corr. à 1 mois depuis 2021": 0.59
+    },
+    {
+      "index": "Résines plastiques",
+      "Décalage (mois)": 1,
+      "Corr. max, toute période": 0.43,
+      "Corr. à 1 mois avant 2020": 0.31,
+      "Corr. à 1 mois depuis 2021": 0.66
+    },
+    {
+      "index": "Caoutchouc synthétique (latex)",
+      "Décalage (mois)": 2,
+      "Corr. max, toute période": 0.23,
+      "Corr. à 1 mois avant 2020": 0.1,
+      "Corr. à 1 mois depuis 2021": 0.21
+    },
+    {
+      "index": "Fibres synthétiques",
+      "Décalage (mois)": 2,
+      "Corr. max, toute période": 0.13,
+      "Corr. à 1 mois avant 2020": -0.04,
+      "Corr. à 1 mois depuis 2021": -0.06
+    }
+  ]
+}
